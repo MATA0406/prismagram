@@ -1,0 +1,7 @@
+# Prisma Admin: https://us1.prisma.sh/jung-jinho-1c92e0/prismagram/dev/_admin
+endpoint: https://us1.prisma.sh/jung-jinho-1c92e0/prismagram/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
